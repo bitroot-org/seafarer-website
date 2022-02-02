@@ -1497,6 +1497,11 @@ a {
     justify-content: flex-start;
   }
 
+  .block-profile-img {
+    width: 70px;
+    height: 70px;
+  }
+
   .block_username {
     font-family: Ubuntu, Helvetica, sans-serif;
   }
