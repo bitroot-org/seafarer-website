@@ -139,6 +139,7 @@ a {
 }
 
 .button.nav.hide-on-mobile {
+  display: none;
   color: #2b4a7e;
 }
 
@@ -237,12 +238,15 @@ a {
 .inline {
   position: relative;
   display: inline-block;
+  font-size: 54px;
 }
 
 .paragraph.hero {
   max-width: 480px;
   margin-top: 32px;
   margin-bottom: 40px;
+  font-family: Circularstd, sans-serif;
+  color: #595959;
 }
 
 .hero-form {
@@ -647,6 +651,10 @@ a {
 
 .feature_image._2 {
   display: inline-block;
+}
+
+.feature_text {
+  color: #595959;
 }
 
 .brand_wrap {
@@ -1332,7 +1340,6 @@ a {
 .nav_logo {
   margin-top: 10px;
   border-radius: 25px;
-  box-shadow: 1px 1px 10px -1px #d9d9d9;
 }
 
 .footer-credit {
@@ -1391,13 +1398,16 @@ a {
 }
 
 .text-span {
-  margin-left: 10px;
+  margin-left: 0px;
   color: #5592fb;
+  font-size: 54px;
 }
 
 .text-span-2 {
-  margin-left: 10px;
+  margin-left: 0px;
+  padding-left: 10px;
   color: #5dc9ff;
+  font-size: 54px;
 }
 
 .social-media {
@@ -1455,6 +1465,10 @@ a {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+}
+
+.link-block {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1584,13 +1598,22 @@ a {
   }
 
   .text-span {
+    margin-left: 0px;
+    padding-left: 0px;
     font-family: Ubuntu, Helvetica, sans-serif;
     color: #5592fb;
   }
 
   .text-span-2 {
+    margin-left: 0px;
+    padding-left: 10px;
     font-family: Ubuntu, Helvetica, sans-serif;
     color: #5dc9ff;
+    font-size: 54px;
+  }
+
+  .html-embed {
+    text-decoration: none;
   }
 }
 
@@ -2262,6 +2285,10 @@ a {
     font-size: 40px;
   }
 
+  .inline {
+    font-size: 40px;
+  }
+
   .hero-form {
     height: auto;
     -webkit-box-orient: vertical;
@@ -2328,7 +2355,12 @@ a {
   }
 
   .h2 {
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     font-size: 32px;
+    text-align: center;
   }
 
   .h2.about-us {
@@ -2519,6 +2551,15 @@ a {
 
   .button-icon {
     display: none;
+  }
+
+  .text-span {
+    font-size: 40px;
+  }
+
+  .text-span-2 {
+    padding-left: 0px;
+    font-size: 40px;
   }
 }
 
