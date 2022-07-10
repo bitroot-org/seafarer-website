@@ -1467,8 +1467,16 @@ a {
   align-items: stretch;
 }
 
+.html-embed {
+  text-decoration: line-through;
+}
+
 .link-block {
   text-decoration: none;
+}
+
+.link-block-2 {
+  text-decoration: line-through;
 }
 
 @media screen and (min-width: 1440px) {
