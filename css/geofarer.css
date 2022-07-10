@@ -1468,7 +1468,7 @@ a {
 }
 
 .html-embed {
-  text-decoration: line-through;
+  text-decoration: none;
 }
 
 .link-block {
@@ -1476,7 +1476,11 @@ a {
 }
 
 .link-block-2 {
-  text-decoration: line-through;
+  text-decoration: none;
+}
+
+.link-block-3 {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2279,6 +2283,7 @@ a {
 
   .button.nav.hide-on-mobile {
     display: none;
+    text-decoration: none;
   }
 
   .nav-link.about-open {
@@ -2568,6 +2573,14 @@ a {
   .text-span-2 {
     padding-left: 0px;
     font-size: 40px;
+  }
+
+  .html-embed {
+    text-decoration: none;
+  }
+
+  .link-block {
+    text-decoration: none;
   }
 }
 
